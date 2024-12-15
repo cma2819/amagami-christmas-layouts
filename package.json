@@ -38,7 +38,7 @@
         "file": "obs-control.html",
         "width": "1920",
         "height": "1080",
-        "singleInstance": true
+        "singleInstance": false
       },
       {
         "file": "character-overlay.html",
