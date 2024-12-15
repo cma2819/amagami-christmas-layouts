@@ -83,8 +83,8 @@
       "love-GEnqe-pE.png"
     ]
   },
-  "_loves-ltWpJcos.js": {
-    "file": "loves-ltWpJcos.js",
+  "_loves-rPur-2_d.js": {
+    "file": "loves-rPur-2_d.js",
     "name": "loves"
   },
   "_nodecg-CZOjlZ1R.js": {
@@ -99,7 +99,7 @@
     "name": "palette"
   },
   "src/browser/dashboard/pages/players.tsx": {
-    "file": "players-rXivX9Q3.js",
+    "file": "players-CDWPZP4X.js",
     "name": "players",
     "src": "src/browser/dashboard/pages/players.tsx",
     "isEntry": true,
@@ -107,7 +107,7 @@
       "_index-SDWRxexv.js",
       "_nodecg-CZOjlZ1R.js",
       "_index-BJz4Kaes.js",
-      "_loves-ltWpJcos.js",
+      "_loves-rPur-2_d.js",
       "_Grid2-CVySmLOa.js",
       "_Transition-DTPqqHka.js",
       "_TransitionGroupContext-BK6N86tB.js"
@@ -181,7 +181,7 @@
     ]
   },
   "src/browser/graphics/pages/love-button.tsx": {
-    "file": "love-button-BlYe6flu.js",
+    "file": "love-button-CzXq8z7A.js",
     "name": "love-button",
     "src": "src/browser/graphics/pages/love-button.tsx",
     "isEntry": true,
@@ -190,7 +190,7 @@
       "_graphics-app-D4mlZgjo.js",
       "_nodecg-CZOjlZ1R.js",
       "_love-CvOTqbg-.js",
-      "_loves-ltWpJcos.js",
+      "_loves-rPur-2_d.js",
       "_Grid2-CVySmLOa.js"
     ]
   },

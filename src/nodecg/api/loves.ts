@@ -16,6 +16,10 @@ const loves = (nodecg: BrowserNodecgInstance) => {
         return;
       }
       delete lovesRep.value[pk];
+    },
+
+    resetAll: () => {
+      lovesRep.value = {};
     }
   };
 };

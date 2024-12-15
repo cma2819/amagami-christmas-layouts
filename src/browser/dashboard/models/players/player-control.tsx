@@ -78,9 +78,7 @@ const PlayerControl = () => {
 
   const resetAllLoves = () => {
     if (confirm('カウンターを全てリセットしますか？')) {
-      players.forEach((p) => {
-        loveApi.reset(p.pk);
-      });
+      loveApi.resetAll();
     }
   };
     
