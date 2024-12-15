@@ -9,7 +9,7 @@ const Container = styled.div`
     top: 0px;
     left: 0px;
     width: calc(1600px - 16px);
-    height: calc(960px - 16px);
+    height: calc(1080px - 16px);
     padding: 16px;
 `;
 
