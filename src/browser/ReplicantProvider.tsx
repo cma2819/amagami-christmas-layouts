@@ -32,7 +32,6 @@ export const ReplicantProvider = ({ children }: { children: ReactNode}) => {
       setAssetIcons(clone(newVal));
     });
     nodecg.Replicant('assets:stands').on('change', (newVal) => {
-      console.log(newVal);
       setAssetStands(clone(newVal));
     });
     nodecg.Replicant('scene').on('change', (newVal) => {

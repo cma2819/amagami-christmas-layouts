@@ -44,7 +44,7 @@ export const LoveButton = ({ pk }: { pk: string }) => {
   }, [love]);
 
   const addLove = () => {
-    setLove(l => l ?? 0 + 1);
+    setLove(l => (l ?? 0) + 1);
   };
 
   return (
