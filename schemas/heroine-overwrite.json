@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "pk": { "type": "string" },
+      "target": {
+        "oneOf": [{ "$ref": "lib/girls.json" }, { "type": "null" }]
+      }
+    },
+    "additionalProperties": false,
+    "required": ["pk", "target"]
+  }
+}

@@ -1,0 +1,21 @@
+version: "3"
+services:
+  nodecg:
+    image: ghcr.io/nodecg/nodecg:latest
+    volumes:
+      # - "./assets:/opt/nodecg/assets:rw"
+      - "./cfg:/opt/nodecg/cfg:rw"
+      - "db:/opt/nodecg/db:rw"
+      - "./dashboard:/opt/nodecg/bundles/amagami-christmas-layouts/dashboard:ro"
+      - "./graphics:/opt/nodecg/bundles/amagami-christmas-layouts/graphics:ro"
+      - "./extension:/opt/nodecg/bundles/amagami-christmas-layouts/extension:ro"
+      - "./schemas:/opt/nodecg/bundles/amagami-christmas-layouts/schemas:ro"
+      - "./node_modules:/opt/nodecg/bundles/amagami-christmas-layouts/node_modules:ro"
+      - "./package.json:/opt/nodecg/bundles/amagami-christmas-layouts/package.json:ro"
+      - "./configschema.json:/opt/nodecg/bundles/amagami-christmas-layouts/configschema.json:ro"
+    ports:
+      - "9090:9090"
+
+volumes:
+  db:
+  node_modules:

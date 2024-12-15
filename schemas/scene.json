@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "oneOf": [
+    {
+      "$ref": "./lib/scene-all.json"
+    },
+    {
+      "$ref": "./lib/scene-character.json"
+    },
+    {
+      "$ref": "./lib/scene-solo.json"
+    }
+  ]
+}
