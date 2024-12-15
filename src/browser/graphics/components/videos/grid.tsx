@@ -52,7 +52,8 @@ export const VideoGrid = (props: Props) => {
 
   const filterPlayers = (players: Players) => {
     if (props.for === 'character') {
-      return players.filter(p => p.target === props.character);
+      const target = props.character !== 'none' ? props.character : null;
+      return players.filter(p => p.target === target);
     }
 
     return players;
