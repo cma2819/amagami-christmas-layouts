@@ -15,8 +15,8 @@ const Container = styled.div`
     background-position: center;
     font-size: 65%;
     color: #ffffff;
-    -webkit-text-stroke: 2px black;
-    text-stroke: 2px black;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
     min-width: 3rem;
 `;
 

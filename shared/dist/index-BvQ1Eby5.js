@@ -10,8 +10,8 @@ import{j as t,a as m}from"./index-SDWRxexv.js";import{n as o,a}from"./nodecg-CZO
     background-position: center;
     font-size: 65%;
     color: #ffffff;
-    -webkit-text-stroke: 2px black;
-    text-stroke: 2px black;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
     min-width: 3rem;
 `,x=({pk:e})=>{const n=a("loves");return t.jsx(l,{children:e in n?n[e]:0})},f=o.div`
     height: 100%;
